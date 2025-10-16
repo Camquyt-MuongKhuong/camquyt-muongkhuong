@@ -1,0 +1,13 @@
+
+Deploy guide - Vercel (quick)
+----------------------------
+1. Install git and Node.js on your machine.
+2. Create a GitHub repo and push this project folder.
+3. Login to Vercel (vercel.com) and choose 'Import Project' -> Git Repository.
+4. Vercel detects Vite + React. Click Deploy. (No special env vars required)
+5. After deploy, add custom domain in Vercel dashboard (e.g., camquitmuongkhuong.vn) and follow DNS instructions.
+6. If you want email on your domain, register domain and configure Zoho Mail (free tier).
+
+Notes:
+- To replace images: put real photos in src/assets and update App.jsx image paths.
+- To add real QR payment: generate QR from your bank (ask Agribank) and replace src/assets/qr_account.png.
